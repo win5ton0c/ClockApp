@@ -1,0 +1,63 @@
+
+
+/* Import Normalize.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/* Reset all styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center content */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsla(11, 82%, 38%, 0.58);
+    color:#ffff;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+
+.parent-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.button-container {
+    display: grid;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+#button1, #button2 {
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100px; 
+    height: 50px; 
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
