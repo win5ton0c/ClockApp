@@ -1,4 +1,5 @@
 const location1 = 'London';
+const location2 = 'Berlin';
 
 const button1 = document.getElementById('button1');
 const timeDisplay1 = document.querySelector('.hours');
