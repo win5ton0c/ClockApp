@@ -65,11 +65,13 @@ h1 {
 #button1:hover {
     background:#ffff;
     color: #000;
+    cursor: pointer;
 }
 
 #button2:hover {
     background:#000;
     color: #ffff;
+    cursor: pointer;
 }
 
 
